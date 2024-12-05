@@ -13,6 +13,11 @@ body{
   justify-content: center;
 }
 
+form{
+  animation: girar 1.5s ease-out;
+
+}
+
 label{
   display: flex;
   flex-direction: column; 
@@ -29,7 +34,7 @@ label{
   border-radius: 20px;
   text-align: center;
   max-width: 40rem;
-  animation: girar 1s ease-in-out;
+  animation: girar 1.5s ease-out;
 }
 
 #Tarjeta h1{
@@ -39,6 +44,20 @@ label{
 #info{
   overflow-wrap: anywhere;
 }
+
+#info p{
+  border-bottom: 2px solid black;
+  color: white;
+}
+
+  input[type= "submit"]{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #bcb7b2;
+    border: 0px;
+    border-radius: 10px;
+  }
 
 @keyframes girar{
   from{

@@ -11,6 +11,7 @@ function App() {
 
   function onSubmit(event) {
     event.preventDefault();
+    
     setCompleto(true);
   }
 
@@ -24,6 +25,7 @@ function App() {
             <p>Nombre: {nombre} {apellido}</p>
             <p>Correo: {correo}</p>
             <p>Mensaje: {mensaje}</p>
+            <input type="submit" value="Back" onClick={()=>{setCompleto(false)}} />
           </div>
         </div>
       </div>
@@ -46,6 +48,7 @@ function App() {
         <label>
           Apellido
           <input
+            required
             type="text"
             value={apellido}
             onChange={(event) => setApellido(event.target.value)}
@@ -54,7 +57,8 @@ function App() {
         <label>
           Correo
           <input
-            type="text"
+            required
+            type="email"
             value={correo}
             onChange={(event) => setCorreo(event.target.value)}
           />
