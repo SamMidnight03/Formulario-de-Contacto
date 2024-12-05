@@ -1,0 +1,51 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  background: url("./fondoformulario.svg") center/cover no-repeat ;
+}
+
+#root{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  display: flex;
+  flex-direction: column; 
+}
+
+#GatoXd{
+  width: 10rem;
+  padding-bottom: 10px;
+}
+
+#Tarjeta{
+  background-color: #807f85;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 40rem;
+  animation: girar 1s ease-in-out;
+}
+
+#Tarjeta h1{
+  font-size: 2rem;
+}
+
+#info{
+  overflow-wrap: anywhere;
+}
+
+@keyframes girar{
+  from{
+      transform: rotateY(0deg);
+  }
+  
+  to{
+      transform: rotateY(360deg);
+  }
+}
