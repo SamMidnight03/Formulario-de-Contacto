@@ -35,7 +35,8 @@ function App() {
   return (
     <>
       <form onSubmit={onSubmit}>
-        <h1>Contactame</h1>
+        <h1>Recibido</h1>
+        <div>
         <label>
           Nombre
           <input
@@ -71,6 +72,7 @@ function App() {
           ></textarea>
         </label>
         <br />
+        </div>
         <input type="submit" value="submit" />
       </form>
     </>

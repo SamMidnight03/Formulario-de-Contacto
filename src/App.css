@@ -3,7 +3,7 @@
 }
 
 body{
-  background: url("./fondoformulario.svg") center/cover no-repeat ;
+  background: url("/fondoformulario.svg") center/cover no-repeat ;
 }
 
 #root{
@@ -15,13 +15,33 @@ body{
 
 form{
   animation: girar 1.5s ease-out;
-
+  background-color: #807f85;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 label{
   display: flex;
   flex-direction: column; 
 }
+
+input[type= "submit"]{
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #bcb7b2;
+  border: 0px;
+  border-radius: 10px;
+}
+
+input, textarea{
+  outline: none;
+  background-color: #807f85;
+  border: 0px;
+  border-bottom: 2px solid black;
+
+}
+
 
 #GatoXd{
   width: 10rem;
@@ -50,15 +70,7 @@ label{
   color: white;
 }
 
-  input[type= "submit"]{
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-    background-color: #bcb7b2;
-    border: 0px;
-    border-radius: 10px;
-  }
-
+ 
 @keyframes girar{
   from{
       transform: rotateY(0deg);
