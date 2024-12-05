@@ -20,7 +20,7 @@ function App() {
       <div id="Tarjeta">
         <h1>Contactado</h1>
         <div>
-          <img src="./public\gatoxd.jpg" alt="gato" id="GatoXd" />
+          <img src="/public\gatoxd.jpg" alt="gato" id="GatoXd" />
           <div id="info">
             <p>Nombre: {nombre} {apellido}</p>
             <p>Correo: {correo}</p>
