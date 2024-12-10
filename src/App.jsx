@@ -69,6 +69,7 @@ function App() {
           <textarea
             value={mensaje}
             onChange={(event) => setMensaje(event.target.value)}
+            maxLength={350}
           ></textarea>
         </label>
         <br />
