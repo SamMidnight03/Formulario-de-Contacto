@@ -51,10 +51,12 @@ input, textarea{
   background-color: #807f85;
   border: 0px;
   border-bottom: 2px solid white;
-  resize: vertical;
-
 }
 
+textarea{
+  height: 100px;
+  resize: none;
+}
 
 #GatoXd{
   width: 10rem;
