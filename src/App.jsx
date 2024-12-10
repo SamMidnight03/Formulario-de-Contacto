@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <form onSubmit={onSubmit}>
-        <h1>Recibido</h1>
+        <h1>Contactame</h1>
         <div>
         <label>
           Nombre
